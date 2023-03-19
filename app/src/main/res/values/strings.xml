@@ -11,4 +11,5 @@
     <string name="password_example">password: 1q2q3q!</string>
     <string name="input_password_example">1q2w3e4r!</string>
     <string name="input_email_example">t9h9</string>
+    <string name="cancel_button">cancel_button</string>
 </resources>
