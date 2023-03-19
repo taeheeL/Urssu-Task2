@@ -27,7 +27,7 @@ fun setHelperTextColor(textView: TextView, isValid: String?) {
 @BindingAdapter("backgroundTint")
 fun setBackgroundTint(button: Button, isValid: String?) {
     val colorStateList = when (isValid) {
-        "" -> ColorStateList.valueOf(
+        "empty" -> ColorStateList.valueOf(
             ContextCompat.getColor(
                 button.context,
                 R.color.button_disabled_color
@@ -52,7 +52,7 @@ fun setBackgroundTint(button: Button, isValid: String?) {
 @BindingAdapter("enabled")
 fun setButtonEnabled(button: Button, isValid: String?) {
     when (isValid) {
-        "" -> button.isEnabled = false
+        "empty" -> button.isEnabled = false
         "valid" -> button.isEnabled = true
         else -> button.isEnabled = false
     }

@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.urssu_task2.databinding.ActivitySignupResultBinding
 
-class SignupResultActivity : AppCompatActivity() {
+class SignUpResultActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignupResultBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

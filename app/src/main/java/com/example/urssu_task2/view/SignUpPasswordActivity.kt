@@ -32,7 +32,7 @@ class SignUpPasswordActivity : AppCompatActivity() {
             val editor: SharedPreferences.Editor = prefs.edit()
             editor.putString("password", viewModel.password.value)
             editor.apply()
-            startActivity(Intent(this, SignupResultActivity::class.java))
+            startActivity(Intent(this, SignUpResultActivity::class.java))
 
         }
     }

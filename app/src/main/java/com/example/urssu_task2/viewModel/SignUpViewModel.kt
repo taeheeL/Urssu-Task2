@@ -15,7 +15,7 @@ class SignUpViewModel : ViewModel() {
 
     val checkPasswordState = password.debounce(300L)
         .distinctUntilChanged()
-        .map {if(it.isNullOrEmpty()) "empty" else if (it.matches(Regex(PW_PATTERN))) "valid" else "invalid" }
+        .map { if (it.isNullOrEmpty()) "empty" else if (it.matches(Regex(PW_PATTERN))) "valid" else "invalid" }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(), null)
 
 
