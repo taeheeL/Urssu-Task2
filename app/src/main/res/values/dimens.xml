@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_text_radius">8dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="result_padding_vertical">16dp</dimen>
+</resources>

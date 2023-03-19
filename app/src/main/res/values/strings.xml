@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Urssu-Task2</string>
+    <string name="signup">회원가입</string>
+    <string name="enter_email">숭실대학교 메일을 입력해 주세요.</string>
+    <string name="ssu_email"><![CDATA[\@soongsil.ac.kr]]></string>
+    <string name="button_next">다음</string>
+    <string name="enter_password">사용할 비밀번호를 입력해 주세요.</string>
+    <string name="helper">숫자와 영문자 조합으로 8자 이상 입력해 주세요.</string>
+    <string name="signup_result_title">회원가입 결과 확인</string>
+    <string name="email_example">email: t9h9@naver.com</string>
+    <string name="password_example">password: 1q2q3q!</string>
+    <string name="input_password_example">1q2w3e4r!</string>
+    <string name="input_email_example">t9h9</string>
 </resources>
